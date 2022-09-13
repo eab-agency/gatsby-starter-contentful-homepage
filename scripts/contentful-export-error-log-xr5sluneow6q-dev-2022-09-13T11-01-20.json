@@ -1,0 +1,33 @@
+[
+  {
+    "ts": "2022-09-13T15:01:21.105Z",
+    "level": "error",
+    "error": {
+      "originalError": {
+        "name": "NotFound",
+        "message": "{\n  \"status\": 404,\n  \"statusText\": \"Not Found\",\n  \"message\": \"The resource could not be found.\",\n  \"details\": {},\n  \"request\": {\n    \"url\": \"/spaces/xr5sluneow6q/environments/dev\",\n    \"headers\": {\n      \"Accept\": \"application/json, text/plain, */*\",\n      \"Content-Type\": \"application/vnd.contentful.management.v1+json\",\n      \"X-Contentful-User-Agent\": \"app contentful.cli/1.15.3; feature space-export; sdk contentful-management.js/10.6.0; platform node.js/v18.6.0; os macOS/v18.6.0;\",\n      \"CF-Sequence\": \"3a0536d6-aef3-4131-aae5-87832e18fb94\",\n      \"Authorization\": \"Bearer ..._jgqc\",\n      \"user-agent\": \"node.js/v18.6.0\",\n      \"Accept-Encoding\": \"gzip\"\n    },\n    \"method\": \"get\"\n  },\n  \"requestId\": \"ace3be92-6ca5-49c8-8bde-3a498f4c14df\"\n}"
+      },
+      "data": {
+        "status": 404,
+        "statusText": "Not Found",
+        "message": "The resource could not be found.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/xr5sluneow6q/environments/dev",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.15.3; feature space-export; sdk contentful-management.js/10.6.0; platform node.js/v18.6.0; os macOS/v18.6.0;",
+            "CF-Sequence": "3a0536d6-aef3-4131-aae5-87832e18fb94",
+            "Authorization": "Bearer ..._jgqc",
+            "user-agent": "node.js/v18.6.0",
+            "Accept-Encoding": "gzip"
+          },
+          "method": "get"
+        },
+        "requestId": "ace3be92-6ca5-49c8-8bde-3a498f4c14df"
+      }
+    }
+  }
+]
